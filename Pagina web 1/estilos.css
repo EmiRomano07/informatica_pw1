@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #860b0b;
+            color: #fff;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 40px;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+         h2, h3 {
+            color: #333;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 100px;
+            margin-right: 15px;
+            margin-left: 100px;
+            margin-top: 10px;
+            image-orientation: var(20px);
+        }
+
+img computacion interactiva.jpg {
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-top: 10px;
+    align-items: center;
+}
+        img{
+        margin-bottom: 20px;
+        margin-top: 10px;
+        display: inline;
+    }
+
+        article {
+            margin-bottom: 30px;
+            margin-top: 10px;
+        }
+
+        article h3 {
+            margin-bottom: 10px;
+        }
+
+        article p {
+            line-height: 1.5;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+
+
+
+
+
+
+
