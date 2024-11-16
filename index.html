@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio web de informatica</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>    
+<body>
+    <header>
+        <h1 style="color: aqua;"> <u>Mi pagina de informatica</u></h1>
+         <img src="sitio informatico.jpg" width="500px" height="500px" alt="sitio informatico">
+          <img src="computacion interactiva.jpg" width="500px" height="500px"    alt="computacion interactiva">
+        <nav>
+            <ul>
+                <li><a href="#inicio" onclick="accion()">Inicio</a></li>
+                <li><a href="#articulos">Articulos</a></li>
+                <li><a href="#tutorial">Tutorial</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="articulos">
+        <h2>ARITCULOS RECIENTES</h2>
+        <article>
+            <h3> <i>Introducción a la Programación</i></h3>
+               <div id="#iniciar">
+            <img src="iniciar programacion.jpg" width="500px" height="500px" alt="Iniciar curso de programación">
+               </div>
+            <p>En este artículo se explican los conceptos básicos de la programación y se introducen algunos lenguajes populares.</p>
+            <a href="https://concepto.de/informatica/#:~:text=Los%20conceptos%20m%C3%A1s%20b%C3%A1sicos%20de,%E2%80%9Ccuerpo%E2%80%9D%20de%20la%20computadora.">Bases de la informatica </a><br>
+        </article>
+<br>
+<br>
+        <article>
+            <h3><i>Redes de Computadoras</i></h3>
+               <img src="redes-informaticas.jpg" width="600px" height="600px" alt="Redes informaticas">
+            <p>Descubre cómo funcionan las redes de computadoras y cómo se comunican entre sí.</p>
+            <a href="https://www.implika.es/blog/que-son-redes-informaticas">Funcionamiento de las redes informaticas</a>
+        </article>
+    </section>
+
+    <section id="tutorial">
+        <h2><i>Tutorial</i></h2>
+        <h3>Aprende a crear una página web básica</h3>
+          <img src="curso computacion.jpg" width="600px" height="600px" alt="Tutorial computacion">
+        <ol>
+            <li>Crear la estructura básica de HTML</li>
+               <a href="https://lenguajehtml.com/">HTML y mas</a> 
+               <br>
+            <li>Agregar estilos CSS</li>
+               <a href="https://lenguajecss.com/css/introduccion/que-es-css/">CSS y mas</a> 
+               <br>
+            <li>Incluir interactividad con JavaScript</li> 
+               <a href="https://lenguajejs.com/">JavaScript y mas</a>
+        </ol>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="enviar-email.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+    
+    <footer>
+        <address>Emiliano Romano</address>
+        <p>&copy; 2023 Página de Informática. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
